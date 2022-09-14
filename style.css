@@ -18,6 +18,9 @@
     border-radius: 50%;
     border: none;
 }
+.btn:active{
+    transform: scale(0.9);
+}
 .count{
     font-size: 70px;
 }
