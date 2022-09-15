@@ -9,18 +9,26 @@
     height: 100vh;
     background: dodgerblue;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+.main:active{
+    background: red;
 }
 .btn{
     width: 300px;
     height: 298px;
     border-radius: 50%;
     border: none;
+    box-shadow: 10px 10px 10px red;
 }
 .btn:active{
     transform: scale(0.9);
+    outline: 25px solid red;
 }
+ 
+
 .count{
     font-size: 70px;
 }
@@ -34,8 +42,10 @@
     background: violet;
     border: none;
     margin-left: 50px;
+    box-shadow: 5px 5px 5px red;
 
 }
 .bnt:active{
     transform: scale(.9);
+    outline:15px solid blue;
 }
